@@ -3,7 +3,7 @@ MaxNum = int(input())
 temp = MaxNum / 2
 i = 0
 attempts = 1
-XXX = temp
+guess = temp
 
 while i != 2:
     print(f' \nПопытка {attempts}')
@@ -16,5 +16,5 @@ while i != 2:
         guess = guess + temp
     else:
         guess = guess - temp
-    var = var + 1  
+    attempts = attempts + 1  
 
